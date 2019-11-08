@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <div class="hero bg-gold mx-auto flex flex-col sm:flex-row justify-between py-16">
-      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
+    <div class="hero bg-gold mx-auto flex flex-col sm:flex-row justify-between pt-16">
+      <div class="pl-16 text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="font-serif text-6xl leading-tight">Boaz Lederer</div>
         <div class="text-blue leading-tight">Product designer</div>
       </div>
@@ -19,13 +19,13 @@
             </div>
           </section>
 
-        <advantages />
+        <advantages>
 </div>
           <section class="bg-green-300 py-12 px-4"><div class="flex flex-wrap -mx-4">
       <div class="lg:w-1/4 px-4 mb-8 lg:mb-0"><h2 class="text-3xl text-center mb-8 font-heading">Latest from my blog</h2>
 </div>
 
-            <div v-for="post in $page.posts.edges" :key="post.id" class="w-full lg:w-1/4 px-4 mb-8 lg:mb-0">
+            <div v-for="post in $page.posts.edges" :key="post.id" class="w-full lg:w-1/4 md:w-1/2 px-4 mb-8 lg:mb-0">
                 <div class="h-full bg-white pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary">  <img src="http://placekitten.com/200/300">
                         </g-image>
                     <div class="px-6"><small>{{ post.node.date }}| {{ post.node.timeToRead }} min read</small>
