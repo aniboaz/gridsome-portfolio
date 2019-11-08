@@ -41,11 +41,17 @@
 
             <div class="flex flex-wrap -mx-4">
             <div v-for="post in $page.posts.edges" :key="post.id" class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
-                <div class="h-full pb-8 rounded shadow-md"><a href="#"><img class="mb-4" src="https://placekitten.com/400/200" alt="">
+                <div class="h-full pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary">   <g-image class="mb-4"
+                          :src="post.node.hero_image"
+                          :alt="post.node.title"
+                          width="300"
+                          height="300"
+                          quality="75">
+                        </g-image>
                     <div class="px-6"><small>{{ post.node.date }}| {{ post.node.timeToRead }} min read</small>
-                      <h3 class="text-xl my-3 font-heading"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
+                      <h3 class="text-xl my-3 font-heading">{{ post.node.title }}</h3>
                       <p class="text-gray-500">  {{ post.node.summary }}</p>
-                    </div></a></div>
+                    </div></g-link></div>
               </div>
           </div>
             </div>

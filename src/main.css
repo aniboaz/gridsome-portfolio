@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .theme-light {
-  --bg-background-primary: gold;
+  --bg-background-primary: ghostwhite;
   --bg-background-secondary: #f7fafc;
   --bg-background-tertiary: #e2e8f0;
 
