@@ -83,20 +83,6 @@
 </template>
 
 <style scoped>
-section {
-  width: 540px;
-  margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div {
-  width: 250px;
-  max-height: 250px;
-  display: inline-block;
-}
-
-
 /*colors*/
 
 .d {
