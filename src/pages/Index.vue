@@ -19,7 +19,7 @@
             </div>
           </section>
 
-        <advantages />
+        <Advantages />
 </div>
           <section class="bg-green-300 py-12 px-4"><div class="flex flex-wrap -mx-4">
       <div class="">      <h2 class="text-3xl text-center mb-8 font-heading">Latest from my blog</h2>
@@ -128,7 +128,7 @@
 
     </div>
 
-  
+
   </Layout>
 </template>
 
@@ -156,7 +156,7 @@ query Posts ($page: Int) {
 
 <script>
 import PaginationPosts from '../components/PaginationPosts'
-import advantages from '../components/advantages'
+import Advantages from '../components/Advantages'
 
 export default {
   metaInfo: {
