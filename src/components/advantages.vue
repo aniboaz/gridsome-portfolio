@@ -28,7 +28,7 @@
             <h3 class="text-xl text-serif my-2 font-heading">Autodidact</h3>
             <p class="text-gray-500 leading-relaxed">As a very fast learner, I taught myself most of the programs and frameworks from a young age.I am keen on learning new things and I like to explore.</p>
           </div>
-    </div>
+
     <div class="lg:w-1/4 px-4 mb-6">
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.05 233.05"><g class="hand">
@@ -46,7 +46,7 @@
       <h3 class="text-xl text-serif my-2 font-heading">Illustrator</h3>
       <p class="text-gray-500 leading-relaxed">I always loved to draw and illustrate, I started with comics and studied art and color theories. now I am a highly skilled artist.</p>
     </div>
-</div>
+
 <div class="lg:w-1/4 px-4 mb-6">
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.05 233.05"><defs> <pattern id="a" patternUnits="userSpaceOnUse" width="4" height="4">
