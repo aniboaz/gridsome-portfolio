@@ -28,13 +28,11 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'author',
-    content: 'Andre Madarang'
+    content: 'Boaz Lederer'
   })
 
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:400,700'
+    href: 'https://fonts.googleapis.com/css?family=Secular+One&display=swap'
   })
 }
-
-

@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 module.exports = {
   siteName: 'Gridsome Portfolio Starter',
   siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1.0',
-  siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
+  siteUrl: 'https://aniboaz.netlify.com/',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -43,14 +43,14 @@ module.exports = {
         contentTypeName: 'Post',
         feedOptions: {
           title: 'Gridsome Portfolio Starter Blog',
-          feed_url: 'https://gridsome-portfolio-starter.netlify.com/rss.xml',
-          site_url: 'https://gridsome-portfolio-starter.netlify.com/'
+          feed_url: 'https://aniboaz.netlify.com/rss.xml',
+          site_url: 'https://aniboaz.netlify.com/'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'https://gridsome-portfolio-starter.netlify.com' + node.path,
-          author: 'Andre Madarang',
+          url: 'https://aniboaz.netlify.com' + node.path,
+          author: 'Boaz Lederer',
           date: node.date
         }),
         output: {
