@@ -1,10 +1,10 @@
 my portfolio [![Netlify Status](https://api.netlify.com/api/v1/badges/9a51a0e5-7783-4e76-9e3a-c255fa8908e2/deploy-status)](https://app.netlify.com/sites/aniboaz/deploys)
+
+
 based on:
 # Gridsome Portfolio Starter
 
 A simple portfolio starter theme for Gridsome
-
-![screenshot](https://user-images.githubusercontent.com/4316355/55691365-a2403380-596b-11e9-93be-05b846ec7760.jpg)
 
 ## Demo URL
 
