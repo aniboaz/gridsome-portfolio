@@ -1,5 +1,6 @@
 <template>
-    <div class="flex flex-wrap -mx-4 -mb-6">
+<h1 class="text-purple text-4xl text-serif font-heading"> Main Advantages</h1>
+<div class="flex flex-wrap -mx-4 -mb-6">
       <div class="lg:w-1/4 px-4 mb-6"><img src="placeholders/icons/shield.svg" alt="">
         <h3 class="text-xl my-2 font-heading">Autodidact</h3>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.05 233.05">
