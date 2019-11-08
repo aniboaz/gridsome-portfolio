@@ -57,9 +57,9 @@
                       <div class="flex flex-wrap -mx-4">
                         <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
                           <div class="flex flex-col h-full p-8 bg-gray-200 rounded">
-                            <span class="text-sm font-semibold">more about me</span>
-                            <h2 class="text-4xl font-heading font-serif">I have been specializing in graphic design and animation for over 10 years. </h2>
-                            <h3 class="text-3xl font-heading">I'm social, autodidact, independent and very creative. </h3>
+                            <span class="text-sm font-semibold text-purple">more about me</span>
+                            <h2 class="text-4xl mb-2 font-heading font-serif">I have been specializing in graphic design and animation for over 10 years. </h2>
+                            <h3 class="text-3xl mb-2 font-heading">I'm social, autodidact, independent and very creative. </h3>
                             <p class="max-w-sm mt-auto mb-8 text-gray-500 leading-relaxed">After studying animation and film at Sapir academic college, I started working as head of graphics @ Mizmor-HD video productions. Studied User Experience design @Netcraft. then got the opportunity to be a full-time GUI expert @ Inkod-hypera. Currently Product designer <a href="#">@ Cloudinary.</a></p>
                           </div>
                         </div>
@@ -90,26 +90,6 @@
           </section>
         </div>
 
-
-  
-
-    <div class="overflow-x-hidden border-gray-200 border-b">
-      <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
-        <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
-
-        <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
-          <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-        </div>
-
-        <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
-          <div><g-image src="../../static/avatar.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.</div>
-        </div>
-
-        <div class="responsive-container">
-        </div>
-      </div> <!-- end get-to-know me -->
-    </div>
 
     <div class="overflow-x-hidden">
       <div class="contact-me bg-background-secondary pt-16">
