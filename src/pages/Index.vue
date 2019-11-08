@@ -53,7 +53,8 @@
 
           </section>
 
-                    <section class="py-12 px-4">
+                    <section>
+                      <div class="container mx-auto px-4">
                       <div class="flex flex-wrap -mx-4">
                         <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
                           <div class="flex flex-col h-full p-8 bg-gray-200 rounded">
@@ -66,7 +67,7 @@
 
                             <div class="w-1/2 p-4"><img class="rounded shadow-lg" src="http://res.cloudinary.com/aniboaz/image/upload/c_scale,f_auto,q_90,w_560/buzy.jpg" alt="a pictrure of me"></div>
 
-
+</div>
                       </div>
                     </section>
 
