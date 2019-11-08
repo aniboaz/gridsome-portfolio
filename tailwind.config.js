@@ -35,17 +35,19 @@ module.exports = {
       black: '#000',
       white: '#fff',
 
-      green: {
-        100: '#f0fff4',
-        200: '#c6f6d5',
-        300: '#9ae6b4',
-        400: '#68d391',
-        500: '#48bb78',
-        600: '#38a169',
-        700: '#2f855a',
-        800: '#276749',
-        900: '#22543d',
-      },
+      gold: '#FFC000',
+
+         green: {
+           100: '#fffaf0',
+           200: '#feebc8',
+           300: '#fbd38d',
+           400: '#f6ad55',
+           500: '#FD8723',
+           600: '#dd6b20',
+           700: '#c05621',
+           800:'#f6ad55',
+         },
+
 
       gray: {
         100: '#f7fafc',
@@ -61,8 +63,6 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'Nunito Sans',
-        'Roboto',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
