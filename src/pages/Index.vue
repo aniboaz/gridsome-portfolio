@@ -156,7 +156,7 @@ query Posts ($page: Int) {
 
 <script>
 
-import Advantages from '../components/Advantages',
+import Advantages from '../components/Advantages';
 import PaginationPosts from '../components/PaginationPosts'
 
 export default {
