@@ -64,7 +64,7 @@
                           </div>
                         </div>
 
-                            <div class="w-1/2 p-2"><img class="rounded shadow-md" src="http://res.cloudinary.com/aniboaz/image/upload/c_scale,f_auto,q_auto,w_480/buzy.jpg" alt=""></div>
+                            <div class="w-1/2 p-4"><img class="rounded shadow-lg" src="http://res.cloudinary.com/aniboaz/image/upload/c_scale,f_auto,q_90,w_560/buzy.jpg" alt="a pictrure of me"></div>
 
 
                       </div>
@@ -91,24 +91,7 @@
         </div>
 
 
-    <div class="overflow-x-hidden">
-      <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
-        <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
-
-        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
-          <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-        </div>
-
-        <ul class="text-lg sm:text-xl">
-          <li class="checkmark mb-6">
-            <div>Project One</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-
-
-        </ul>
-      </div> <!-- end projects -->
-    </div>
+  
 
     <div class="overflow-x-hidden border-gray-200 border-b">
       <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
