@@ -1,6 +1,6 @@
 <template>
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
-    <header class="">
+    <header class=" p-2 mt-0 fixed w-full z-10 top-0">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
           <g-link v-if="theme === 'theme-light'" to="/"><g-image src="../../static/logo.svg" class="w-40" alt="logo" /></g-link>
@@ -63,7 +63,7 @@
       </div>
     </footer>
 
-  
+
 </template>
 
 <static-query>
