@@ -1,5 +1,4 @@
 <template>
-  <section class="py-8 px-4">
     <div class="flex flex-wrap -mx-4 -mb-6">
       <div class="lg:w-1/4 px-4 mb-6"><img src="placeholders/icons/shield.svg" alt="">
         <h3 class="text-xl my-2 font-heading">Autodidact</h3>
@@ -24,15 +23,10 @@
 </g> </svg>
         <p class="text-gray-500 leading-relaxed">As a very fast learner, I taught myself most of the programs and frameworks from a young age.I am keen on learning new things and I like to explore.</p>
       </div>
-      <div class="lg:w-1/4 px-4 mb-6"><img src="placeholders/icons/cloud-tools.svg" alt="">
-        <h3 class="text-xl my-2 font-serif font-heading">Versatility</h3>
-        <p class="text-gray-500 leading-relaxed">Multi-functional paper for various office needs. Snow-white sheets will shine bright like diamond for many years.</p>
-      </div>
-      <div class="lg:w-1/4 px-4 mb-6"><img src="placeholders/icons/cart.svg" alt="">
-        <h3 class="text-xl my-2 font-heading">Value-based price</h3>
-        <p class="text-gray-500 leading-relaxed">The best combination of quality and economy comes with Dunder Mifflin paper. The offer includes paper in wide range of density and sizes.</p>
-      </div>
+
     </div>
-  </section>
+
 
   </template>
+<style scoped>
+</style>

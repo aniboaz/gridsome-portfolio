@@ -20,13 +20,13 @@
           </section>
 
         <advantages />
+</div>
+          <section class="bg-green-300 py-12 px-4"><div class="flex flex-wrap -mx-4">
+      <div class="">      <h2 class="text-3xl text-center mb-8 font-heading">Latest from my blog</h2>
+</div>
 
-          <section class="bg-green-300 py-12 px-4">
-            <h2 class="text-3xl text-center mb-8 font-heading">Latest posts</h2>
-
-            <div class="flex flex-wrap -mx-4">
             <div v-for="post in $page.posts.edges" :key="post.id" class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
-                <div class="h-full g-white pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary">  <img src="http://placekitten.com/200/300">
+                <div class="h-full bg-white pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary">  <img src="http://placekitten.com/200/300">
                         </g-image>
                     <div class="px-6"><small>{{ post.node.date }}| {{ post.node.timeToRead }} min read</small>
                       <h3 class="text-xl my-3 font-heading">{{ post.node.title }}</h3>
