@@ -19,24 +19,9 @@
             </div>
           </section>
 
-          <section class="py-8 px-4">
-            <div class="flex flex-wrap -mx-4 -mb-6">
-              <div class="lg:w-1/3 px-4 mb-6"><img src="placeholders/icons/shield.svg" alt="">
-                <h3 class="text-xl my-2 font-heading">High durability</h3>
-                <p class="text-gray-500 leading-relaxed">Forget about paper jams with our increased stability product. Ideal for high-quality printing, colour printing and photocopying.</p>
-              </div>
-              <div class="lg:w-1/3 px-4 mb-6"><img src="placeholders/icons/cloud-tools.svg" alt="">
-                <h3 class="text-xl my-2 font-heading">Versatility</h3>
-                <p class="text-gray-500 leading-relaxed">Multi-functional paper for various office needs. Snow-white sheets will shine bright like diamond for many years.</p>
-              </div>
-              <div class="lg:w-1/3 px-4 mb-6"><img src="placeholders/icons/cart.svg" alt="">
-                <h3 class="text-xl my-2 font-heading">Value-based price</h3>
-                <p class="text-gray-500 leading-relaxed">The best combination of quality and economy comes with Dunder Mifflin paper. The offer includes paper in wide range of density and sizes.</p>
-              </div>
-            </div>
-          </section>
+        <advantages />
 
-          <section class="py-12 px-4">
+          <section class="bg-gray-200 py-12 px-4">
             <h2 class="text-3xl text-center mb-8 font-heading">Latest posts</h2>
 
             <div class="flex flex-wrap -mx-4">
@@ -57,7 +42,7 @@
                       <div class="container mx-auto px-4">
                       <div class="flex flex-wrap -mx-4">
                         <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-                          <div class="flex flex-col h-full p-8 bg-gray-200 rounded">
+                          <div class="flex flex-col h-full p-8 rounded">
                             <span class="text-sm font-semibold text-purple">more about me</span>
                             <h2 class="text-4xl mb-2 font-heading font-serif">I have been specializing in graphic design and animation for over 10 years. </h2>
                             <h3 class="text-3xl mb-2 font-heading">I'm social, autodidact, independent and very creative. </h3>
@@ -65,7 +50,7 @@
                           </div>
                         </div>
 
-                            <div class="w-1/2 p-4"><img class="rounded shadow-lg" src="http://res.cloudinary.com/aniboaz/image/upload/c_scale,f_auto,q_90,w_560/buzy.jpg" alt="a pictrure of me"></div>
+                            <div class="w-1/2 p-4"><img class="rounded shadow-lg hover:shadow-xl" src="http://res.cloudinary.com/aniboaz/image/upload/c_scale,f_auto,q_90,w_560/buzy.jpg" alt="a pictrure of me"></div>
 
 </div>
                       </div>
