@@ -2,7 +2,7 @@
   <Layout>
     <div class="hero bg-gold mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="text-6xl leading-tight">Boaz Lederer</div>
+        <div class="font-serif text-6xl leading-tight">Boaz Lederer</div>
         <div class="text-blue leading-tight">Product designer</div>
       </div>
       <div class="mt-8 sm:mt-0">
