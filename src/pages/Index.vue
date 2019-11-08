@@ -49,6 +49,27 @@
               </div>
           </div>
             </div>
+            <page-query>
+            query Posts ($page: Int) {
+              posts: allPost (sortBy: "date", order: DESC, perPage: 3, page: $page) @paginate {
+                totalCount
+                pageInfo {
+                  totalPages
+                  currentPage
+                }
+                edges {
+                  node {
+                    id
+                    title
+                    date (format: "MMMM D, Y")
+                    summary
+                    timeToRead
+                    path
+                  }
+                }
+              }
+            }
+            </page-query>
           </section>
 
           <section class="py-12 px-4">
