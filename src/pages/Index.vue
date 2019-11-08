@@ -41,13 +41,13 @@
 
             <div class="flex flex-wrap -mx-4">
             <div v-for="post in $page.posts.edges" :key="post.id" class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
-                <div class="h-full pb-8 rounded shadow-md"><a href="#"><img class="mb-4" src="placeholders/pictures/work.jpg" alt="">
-                    <div class="px-6"><small>22 Oct 2019 | By Michael Scott</small>
+                <div class="h-full pb-8 rounded shadow-md"><a href="#"><img class="mb-4" src="https://placekitten.com/400/200" alt="">
+                    <div class="px-6"><small>{{ post.node.date }}| {{ post.node.timeToRead }} min read</small>
                       <h3 class="text-xl my-3 font-heading"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h3>
                       <p class="text-gray-500">  {{ post.node.summary }}</p>
                     </div></a></div>
               </div>
-          
+          </div>
             </div>
           </section>
 
