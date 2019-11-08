@@ -6,7 +6,7 @@
         <div class="text-blue leading-tight">Product designer</div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <g-image src="hhttps://res.cloudinary.com/aniboaz/image/upload/dpr_auto,q_auto:best/bgb.png" alt="hero" class="mx-auto sm:mx-0" />
+        <g-image src="https://res.cloudinary.com/aniboaz/image/upload/dpr_auto,q_auto:best/bgb.png" alt="hero" class="mx-auto sm:mx-0" />
       </div>
     </div> <!-- end hero -->
 
@@ -41,12 +41,7 @@
 
             <div class="flex flex-wrap -mx-4">
             <div v-for="post in $page.posts.edges" :key="post.id" class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
-                <div class="h-full pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary">   <g-image class="mb-4"
-                          :src="post.node.hero_image"
-                          :alt="post.node.title"
-                          width="300"
-                          height="300"
-                          quality="75">
+                <div class="h-full pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary">  <img src="http://placekitten.com/200/300">
                         </g-image>
                     <div class="px-6"><small>{{ post.node.date }}| {{ post.node.timeToRead }} min read</small>
                       <h3 class="text-xl my-3 font-heading">{{ post.node.title }}</h3>
@@ -57,6 +52,23 @@
             </div>
 
           </section>
+
+                    <section class="py-12 px-4">
+                      <div class="flex flex-wrap -mx-4">
+                        <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+                          <div class="flex flex-col h-full p-8 bg-gray-200 rounded">
+                            <span class="text-sm font-semibold">more about me</span>
+                            <h2 class="text-4xl font-heading font-serif">I have been specializing in graphic design and animation for over 10 years. </h2>
+                            <h3 class="text-3xl font-heading">I'm social, autodidact, independent and very creative. </h3>
+                            <p class="max-w-sm mt-auto mb-8 text-gray-500 leading-relaxed">After studying animation and film at Sapir academic college, I started working as head of graphics @ Mizmor-HD video productions. Studied User Experience design @Netcraft. then got the opportunity to be a full-time GUI expert @ Inkod-hypera. Currently Product designer <a href="#">@ Cloudinary.</a></p>
+                          </div>
+                        </div>
+
+                            <div class="w-1/2 p-2"><img class="rounded shadow-md" src="http://res.cloudinary.com/aniboaz/image/upload/c_scale,f_auto,q_auto,w_480/buzy.jpg" alt=""></div>
+
+
+                      </div>
+                    </section>
 
           <section class="py-12 px-4">
             <div class="flex flex-wrap -mx-4">
