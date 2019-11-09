@@ -42,7 +42,7 @@
                           </div>
                         </div>
 
-                            <div class="w-1/2 p-4"><img class="rounded shadow-lg hover:shadow-xl" src="http://res.cloudinary.com/aniboaz/image/upload/c_scale,f_auto,q_90,w_560/buzy.jpg" alt="a pictrure of me"></div>
+                            <div class="lg:w-1/2 p-4"><img class="rounded shadow-lg hover:shadow-xl" src="http://res.cloudinary.com/aniboaz/image/upload/c_scale,f_auto,q_90,w_560/buzy.jpg" alt="a pictrure of me"></div>
 
 </div>
                       </div>
