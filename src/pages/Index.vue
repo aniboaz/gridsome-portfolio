@@ -1,9 +1,10 @@
 <template>
   <Layout>
-    <div class="hero bg-gold mx-auto flex flex-col sm:flex-row justify-between pt-16">
+    <div class="hero bg-ginger mx-auto flex flex-col sm:flex-row justify-between pt-16">
       <div class="pl-16 text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="font-serif text-6xl leading-tight">Boaz Lederer</div>
-        <div class="text-blue leading-tight">Product designer</div>
+        <span class="text-white leading-tight">Hi there, this is the website of</span>
+        <div class="font-serif text-6xl leading-tight">An Interactive designer</div>
+        <div class="text-purple leading-tight">Product Designer & Animator called <i>Boaz.</i></div>
       </div>
       <div class="mt-8 sm:mt-0">
         <g-image src="https://res.cloudinary.com/aniboaz/image/upload/dpr_auto,q_auto:best/bgb.png" alt="hero" class="mx-auto sm:mx-0" />
