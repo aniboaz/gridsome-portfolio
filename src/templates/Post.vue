@@ -566,8 +566,8 @@ export default {
   }
 
   .markdown-body blockquote {
-    border-left: .25em solid orangered;
-    color: #6a737d;
+    border-left: .25em solid --text-copy-primary;
+    color: --text-copy-secondary;
     padding: 0 1em;
   }
 
