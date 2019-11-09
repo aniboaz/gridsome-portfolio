@@ -19,8 +19,7 @@
 </div>
 
             <div v-for="post in $page.posts.edges" :key="post.id" class="w-full lg:w-1/4 md:w-1/2 px-4 mb-8 lg:mb-0">
-                <div class="h-full bg-white pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary">  <img src="http://placekitten.com/200/300">
-                        </g-image>
+                <div class="h-full bg-white pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary"> <img :src="post.cover" :alt="post.title">
                     <div class="px-6"><small>{{ post.node.date }}| {{ post.node.timeToRead }} min read</small>
                       <h3 class="text-xl my-3 font-heading">{{ post.node.title }}</h3>
                       <p class="text-gray-500">  {{ post.node.summary }}</p>
