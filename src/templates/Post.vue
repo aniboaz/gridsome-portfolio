@@ -344,7 +344,7 @@ export default {
   }
 
   .markdown-body h1 {
-    font-size: 32px;
+    font-size: 42px;
   }
 
   .markdown-body h1,
@@ -353,11 +353,11 @@ export default {
   }
 
   .markdown-body h2 {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .markdown-body h3 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .markdown-body h3,
@@ -366,11 +366,11 @@ export default {
   }
 
   .markdown-body h4 {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .markdown-body h5 {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .markdown-body h5,
@@ -379,7 +379,7 @@ export default {
   }
 
   .markdown-body h6 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .markdown-body p {
@@ -566,7 +566,7 @@ export default {
   }
 
   .markdown-body blockquote {
-    border-left: .25em solid #30855A;
+    border-left: .25em solid orangered;
     color: #6a737d;
     padding: 0 1em;
   }
