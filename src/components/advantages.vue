@@ -1,10 +1,10 @@
 <template>
   <section class="py-12 px-4 text-center">
   <span class="text-sm font-semibold">whats so great about you?</span>
-    <h1 class="text-purple text-4xl text-serif font-heading"> Main Advantages</h1>
+    <h1 class="text-purple text-4xl font-serif font-heading"> Main Advantages</h1>
 
     <div class="flex flex-wrap -mx-4 -mb-6">
-          <div class="lg:w-1/4 px-4 mb-6">
+          <div class="lg:w-1/4 px-4 mb-6 md:w-1/2">
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.05 233.05">
             <title>autodidact</title>
@@ -25,11 +25,11 @@
             <path class="braind  thic" d="M176.14 46.18A17.33 17.33 0 1 1 143 35.88m-23.2 25.66a17.33 17.33 0 0 1 21.7-11.4M46 100.39A17.33 17.33 0 0 1 67.67 89m-1.2-17.41c8.67-4.06 20.44 1.37 24.5 10m90.96-2.99A17.33 17.33 0 0 1 159 70m3.87 41.76a17.33 17.33 0 0 1-22.95-8.62m-16.74-62.66a17.33 17.33 0 0 1-22.95-8.62m1.28 82.88c3.37-9 23.11-16.66 32.08-13.29"></path>
             </g> </svg>
 
-            <h3 class="text-xl text-serif my-2 font-heading">Autodidact</h3>
+            <h3 class="text-xl font-serif my-2 font-heading">Autodidact</h3>
             <p class="text-gray-500 leading-relaxed">As a very fast learner, I taught myself most of the programs and frameworks from a young age.I am keen on learning new things and I like to explore.</p>
           </div>
 
-    <div class="lg:w-1/4 px-4 mb-6">
+    <div class="lg:w-1/4 px-4 mb-6 md:w-1/2">
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.05 233.05"><g class="hand">
     <rect class="orangered animated fadeOutDown infinite d2" x="161.03" y="137.47" width="12.5" height="42" rx="6.25" ry="6.25"></rect>
@@ -43,11 +43,11 @@
   </g><path class="d draw" d="M54.2 134.52a45.13 45.13 0 0 0-7.2 8.61c-2 3.09-3.48 6.518-3.38 9.91a8.76 8.76 0 0 0 1.38 4.52 12.44 12.44 0 0 0 3.45 3.44 32.57 32.57 0 0 0 9.72 4.16c7 1.91 14.54 2.58 22 3s15 .4 22.1.07l13.22-.58-10.7 8.45c-4.43 3.5-8.78 7.12-13 10.5s-9.19 6.54-14 9.54-9.65 5.9-14.64 5.88 170 0 0 1-15.41 7.55l-.58-.81a170.87 "></path>
 </svg>
 
-      <h3 class="text-xl text-serif my-2 font-heading">Illustrator</h3>
+      <h3 class="text-xl font-serif my-2 font-heading">Illustrator</h3>
       <p class="text-gray-500 leading-relaxed">I always loved to draw and illustrate, I started with comics and studied art and color theories. now I am a highly skilled artist.</p>
     </div>
 
-<div class="lg:w-1/4 px-4 mb-6">
+<div class="lg:w-1/4 px-4 mb-6 md:w-1/2">
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.05 233.05"><defs> <pattern id="a" patternUnits="userSpaceOnUse" width="4" height="4">
       <path d="M-1,1 l2,-2
@@ -58,10 +58,10 @@
     <circle class="eye white" cx="124.53" cy="122.23" r="5.55"></circle>
     <path class="d lash animated infinite flipInX" d="M23.97 95.53l14.12 11.12M33.29 87.63l10.24 9.45M110.66 57.15v13.66M95.42 58.33l3.67 13.65M66.75 67.15l9.67 12.38M45.04 79.53l9.49 9.15M55.21 72.44l7.7 10.77M82.42 60.43l3.33 11.55M209.09 95.53l-13.81 11.12M199.97 87.63l-10 9.45M124.53 57.37v13.66M139.34 59.33l-3.58 13.65M164.74 64.84l-9.45 12.38M188.49 79.53l-9.27 9.15M174.8 73.34l-7.52 10.77M149.04 62.43l-3.26 11.55"></path></svg>
 
-  <h3 class="text-xl text-serif my-2 font-heading">Animator</h3>
+  <h3 class="text-xl font-serif my-2 font-heading">Animator</h3>
   <p class="text-gray-500 leading-relaxed">animation is more then just moving things around. after studying my B.F.A. in animation. I mastered several forms of animation including 2d and 3d.</p>
 </div>
-<div class="lg:w-1/4 px-4 mb-6">
+<div class="lg:w-1/4 px-4 mb-6 md:w-1/2">
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.05 233.05">
     <defs>
@@ -75,7 +75,7 @@
     <path class="d animated rubberBand infinite patch" d="M80.27 91.14h16.67m-16.67 5.33h16.67m-16.67 5.33h16.67m-16.67 5.34h16.67m-16.67 5.33h16.67m-16.67 5.33h16.67m-16.67 5.34h16.67m32-46.86v14.86m-5.33-14.86v14.86m-5.34-14.86v14.86m-5.33-14.86v14.86m-5.33-14.86v14.86m-5.34-14.86v14.86m-5.33-14.86v14.86m55.28 34.09h-16.66m16.66-5.33h-16.66m16.66-5.34h-16.66m16.66-5.33h-16.66m16.66-5.33h-16.66m16.66-5.34h-16.66m16.66-5.33h-16.66m-32 46.86v-14.86m5.33 14.86v-14.86m5.33 14.86v-14.86m5.34 14.86v-14.86m5.33 14.86v-14.86m5.33 14.86v-14.86m5.34 14.86v-14.86"></path>
         </svg>
 
-  <h3 class="text-xl text-serif my-2 font-heading">Team player</h3>
+  <h3 class="text-xl font-serif my-2 font-heading">Team player</h3>
   <p class="text-gray-500 leading-relaxed">Meaning people basicly ♥ me. As a brother of four, I obtained a great attitude to working in a close, highly energized, team-oriented environment.</p>
 </div>
 </div>
