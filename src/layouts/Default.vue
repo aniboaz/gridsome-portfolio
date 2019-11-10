@@ -4,7 +4,7 @@
      </transition>
 
 
-    <div v-if="loading === 100" class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
+    <div v-cloak class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
     <header class=" p-2 mt-0 fixed w-full z-10 top-0" :class="isOpen ? 'bg-background-primary': 'bg-transparent'">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
