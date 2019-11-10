@@ -89,7 +89,7 @@ export default {
     SearchInput,
     ThemeSwitcher
   },
-  mounted() {
+  mounted() {self.loading = 100;
     this.theme = localStorage.getItem('theme') || 'theme-light'
   },
   data() {
@@ -106,10 +106,6 @@ export default {
     updateTheme(theme) {
       this.theme = theme
     }
-  },
-  mounted: function () {
-    // see if this works ?
-   self.loading = 100;
   }
 }
 </script>
@@ -123,7 +119,7 @@ export default {
        border-radius: 50%;
      }
      .spinner {
-       color: var(--text-copy-primary);
+       color: #FF9900;
        font-size: 11px;
        text-indent: -99999em;
        margin: 55px auto;
@@ -145,7 +141,7 @@ export default {
      .spinner:before {
        width: 5.2em;
        height: 10.2em;
-       background: var(--bg-background-primary);
+       background: white;
        border-radius: 10.2em 0 0 10.2em;
        top: -0.1em;
        left: -0.1em;
@@ -157,7 +153,7 @@ export default {
      .spinner:after {
        width: 5.2em;
        height: 10.2em;
-       background:var(--bg-background-primary);
+       background: white;
        border-radius: 0 10em 10.2em 0;
        top: -0.1em;
        left: 5.1em;
