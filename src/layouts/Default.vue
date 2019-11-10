@@ -110,7 +110,7 @@ export default {
   mounted: function () {
     // see if this works ?
    self.loading = 100;
-  })
+  }
 }
 </script>
 
