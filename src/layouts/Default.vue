@@ -89,7 +89,7 @@ export default {
     SearchInput,
     ThemeSwitcher
   },
-  mounted() {self.loading = 100;
+  mounted() {loading = 100;
     this.theme = localStorage.getItem('theme') || 'theme-light'
   },
   data() {
