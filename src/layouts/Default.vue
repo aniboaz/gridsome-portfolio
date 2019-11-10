@@ -1,7 +1,7 @@
 <template>
-  <div class="spinner" title="Loading..." v-if="loading < 100">Loading...</div> <transition name="fade">
+<!--  <div class="spinner" title="Loading..." v-if="loading < 100">Loading...</div> <transition name="fade">
        <progress v-if="loading < 100" class="progress is-small is-link is-radiusless" :value="loading" max="100">{{loading}}%</progress>
-     </transition>
+     </transition-->
 
 
     <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
@@ -182,4 +182,12 @@ export default {
          transform: rotate(360deg);
        }
      }
+
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
    </style>
