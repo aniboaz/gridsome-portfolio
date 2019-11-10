@@ -1,5 +1,10 @@
 <template>
-  <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
+  <div class="spinner" title="Loading..." v-if="loading < 100">Loading...</div> <transition name="fade">
+       <progress v-if="loading < 100" class="progress is-small is-link is-radiusless" :value="loading" max="100">{{loading}}%</progress>
+     </transition>
+
+
+    <div v-if="loading === 100" class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
     <header class=" p-2 mt-0 fixed w-full z-10 top-0" :class="isOpen ? 'bg-background-primary': 'bg-transparent'">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
@@ -90,6 +95,7 @@ export default {
   data() {
     return {
       isOpen: false,
+      loading: 0,
       theme: '',
     }
   },
@@ -100,8 +106,84 @@ export default {
     updateTheme(theme) {
       this.theme = theme
     }
-  }
+  },
+  mounted: function () {
+    // see if this works ?
+   self.loading = 100;
+  })
 }
 </script>
 
 <style src="../main.css" />
+<style lang="css">
+     /*spinner thanks to https://projects.lukehaas.me/css-loaders/*/
+     .spinner,
+     .spinner:before,
+     .spinner:after {
+       border-radius: 50%;
+     }
+     .spinner {
+       color: var(--text-copy-primary);
+       font-size: 11px;
+       text-indent: -99999em;
+       margin: 55px auto;
+       position: fixed;
+       width: 10em;
+       height: 10em;
+       top: calc((50vh - 10em));
+       left: calc((50vw - 10em));
+       box-shadow: inset 0 0 0 1em;
+       -webkit-transform: translateZ(0);
+       -ms-transform: translateZ(0);
+       transform: translateZ(0);
+     }
+     .spinner:before,
+     .spinner:after {
+       position: absolute;
+       content: '';
+     }
+     .spinner:before {
+       width: 5.2em;
+       height: 10.2em;
+       background: var(--bg-background-primary);
+       border-radius: 10.2em 0 0 10.2em;
+       top: -0.1em;
+       left: -0.1em;
+       -webkit-transform-origin: 5.2em 5.1em;
+       transform-origin: 5.2em 5.1em;
+       -webkit-animation: load2 1.5s infinite ease 1.5s;
+       animation: load2 1.5s infinite ease 1.5s;
+     }
+     .spinner:after {
+       width: 5.2em;
+       height: 10.2em;
+       background:var(--bg-background-primary);
+       border-radius: 0 10em 10.2em 0;
+       top: -0.1em;
+       left: 5.1em;
+       -webkit-transform-origin: 0px 5.1em;
+       transform-origin: 0px 5.1em;
+       -webkit-animation: load2 1.5s infinite ease-in-out;
+       animation: load2 1.5s infinite ease-in-out;
+     }
+     @-webkit-keyframes load2 {
+       0% {
+         -webkit-transform: rotate(0deg);
+         transform: rotate(0deg);
+       }
+       100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+       }
+     }
+     @keyframes load2 {
+       0% {
+         -webkit-transform: rotate(0deg);
+         transform: rotate(0deg);
+       }
+       100% {
+         -webkit-transform: rotate(360deg);
+         transform: rotate(360deg);
+       }
+     }
+   </style>
