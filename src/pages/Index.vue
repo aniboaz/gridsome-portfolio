@@ -14,7 +14,7 @@
 <div class="container mx-auto px-4">
         <Advantages />
 </div>
-          <section class="bg-tertiary py-12 px-4"><div class="flex flex-wrap -mx-4">
+          <section class="bg-background-tertiary py-12 px-4"><div class="flex flex-wrap -mx-4">
       <div class="lg:w-1/4 px-4 mb-8 lg:mb-0"><h2 class="text-3xl text-center mb-8 font-heading">Latest from my blog</h2>
 </div>
 
@@ -53,7 +53,7 @@
 
 
     <div class="overflow-x-hidden">
-      <div class="contact-me bg-secondary pt-16">
+      <div class="contact-me bg-background-secondary pt-16">
         <div class="container-inner mx-auto text-xl pb-4 relative">
           <section class="py-12 px-4">
             <div class="flex flex-wrap -mx-4">
