@@ -209,7 +209,7 @@ circle.eye {
 }
 
 .braind {
-  stroke: Black;
+  stroke: var(--text-copy-primary);
   stroke-miterlimit: 25;
   fill: none;
 }
