@@ -14,6 +14,10 @@ const postcssPlugins = [
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss())
 
 module.exports = {
+  icon: {
+    favicon: 'https://res.cloudinary.com/aniboaz/image/upload/c_fill,g_auto,dpr_auto,q_auto,w_96,h_96,b_gold/bgb.jpeg',
+    touchicon: 'https://res.cloudinary.com/aniboaz/image/upload/c_fill,g_auto,dpr_auto,q_auto,w_167,h_167,b_gold/bgb.jpeg'
+  },
   siteName: 'Gridsome Portfolio Starter',
   siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1.0',
   siteUrl: 'https://aniboaz.netlify.com/',
