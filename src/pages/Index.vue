@@ -137,6 +137,7 @@ query Posts ($page: Int) {
         summary
         timeToRead
         path
+        cover
       }
     }
   }
