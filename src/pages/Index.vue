@@ -52,7 +52,7 @@
         </div>
 
 
-    <div class="overflow-x-hidden">
+    <!--div class="overflow-x-hidden">
       <section class="contact-me bg-background-secondary pt-16">
         <div class="container-inner mx-auto text-xl pb-4 relative">
 
@@ -109,7 +109,7 @@
 			</form>
 		</div>
 	</div>
-	</div>
+</div-->
 	<!-- end contact-me -->
 	</div>
 	</div></div>
