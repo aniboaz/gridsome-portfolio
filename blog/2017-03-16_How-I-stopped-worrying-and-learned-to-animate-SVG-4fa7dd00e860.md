@@ -6,6 +6,7 @@ date: '2017-03-16T06:32:00.543Z'
 categories: []
 keywords: ["Tag:SVG","Tag:CSS","Tag:Design"]
 slug: /@aniboaz/animate-svg-4fa7dd00e860
+cover: https://res.cloudinary.com/aniboaz/image/upload/f_auto,q_auto/Blog/animate-svg.jpg
 ---
 
 ![](https://cdn-images-1.medium.com/max/2560/1*XcpTycdmawe56y0OMnLkHw.jpeg)
