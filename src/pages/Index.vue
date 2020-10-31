@@ -1,6 +1,137 @@
 <template>
   <Layout>
-    <div class="hero bg-ginger mx-auto flex flex-col sm:flex-row justify-between pt-16">
+
+    <!-- Idea adapted from http://jsfiddle.net/dbushell/32mAb/2/
+    var font animation: https://css-irl.info/variable-font-animation-with-css-and-splitting-js/-->
+
+    <div class="ring" id="ring"><style scoped="css">
+    .ring {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: none;
+      /*border: 1px solid gray;*/
+    }
+    .ring > svg {
+      width: 800px;
+      transition: all 2s ease-in-out 1s;
+    }
+
+    svg g text {
+      fill: black;
+      font-variation-settings: "wght" 100, "wdth" 85;
+    }
+
+    svg g text {
+      font-variation-settings: "wght" 800, "wdth" 100;
+      transition: all 1s ease-out;
+    }
+
+    .ring:hover text {
+      transform: rotate(0deg);
+    }
+
+    .ring-text-1,
+    img.ring:hover {
+      animation: rotate 60s linear infinite reverse;
+      z-index: 1;
+    }
+    /*.ring-text-1 text, .ring-text-3 text{animation: breathe 4s infinite forwards;}
+    .ring-text-2 text, .ring-text-4 text{animation: breathe 2s infinite forwards;}*/
+    .ring-text-2 {
+      animation: rotate 42s linear infinite;
+      z-index: 2;
+    }
+    .ring-text-3 {
+      animation: rotate 30s linear infinite reverse;
+    }
+    .ring-text-4 {
+      animation: rotate 20s linear infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(-360deg);
+      }
+    }
+
+    @keyframes breathe {
+      60% {
+        font-variation-settings: "wght" 900, "wdth" 100;
+      }
+
+      100% {
+        font-variation-settings: "wght" 100, "wdth" 85;
+      }
+    }
+    </style>
+      <svg class="ring-text-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600" height="600" viewBox="0 0 300 300">
+        <defs>
+          <path id="circlePath" d=" M 150, 150 m -120, 0 a 120,120 0 0,1 240,0 a 120,120 0 0,1 -240,0 " />
+          <path id="circlePath2" d=" M 150, 150 m -100, 0 a 100,100 0 0,1 200,0 a 100,100 0 0,1 -200,0 " />
+        </defs>
+
+        <g class="group">
+          <use xlink:href="#circlePath" fill="none" />
+          <text fill="#ff00ff">
+            <textPath xlink:href="#circlePath">{{ line1 }}</textPath>
+          </text>
+        </g>
+      </svg>
+
+      <div class="ring">
+        <svg class="ring-text-2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600" height="600" viewBox="0 0 300 300">
+          <defs>
+
+          </defs>
+
+          <g class="group">
+            <use xlink:href="#circlePath" fill="none" />
+            <text>
+              <textPath xlink:href="#circlePath2">{{ line2 }}</textPath>
+            </text>
+          </g>
+        </svg>
+      </div>
+
+      <div class="ring">
+        <svg class="ring-text-3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600" height="600" viewBox="0 0 300 300">
+          <defs>
+            <path id="circlePath3" d=" M 150, 150 m -80, 0 a 80,80 0 0,1 160,0 a 80,80 0 0,1 -160,0 " />
+          </defs>
+
+          <g class="group">
+            <use xlink:href="#circlePath" fill="none" />
+            <text fill="#ff00ff">
+              <textPath xlink:href="#circlePath3">{{ line3 }}</textPath>
+            </text>
+          </g>
+        </svg>
+      </div>
+
+      <div class="ring">
+        <svg class="ring-text-4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600" height="600" viewBox="0 0 300 300">
+          <defs>
+            <path id="circlePath4" d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
+          </defs>
+          <g class="group">
+            <use xlink:href="#circlePath" fill="none" />
+            <text fill="#ff00ff">
+              <textPath xlink:href="#circlePath4">{{ line4 }}</textPath>
+            </text>
+          </g>
+        </svg>
+      </div>
+      <img class="ring" src="https://res.cloudinary.com/aniboaz/image/upload/r_max,c_fit,w_400,h_400,dpr_auto,q_auto:best/bgb.png" width="200">
+
+
+
+
+    <!--div class="hero bg-ginger mx-auto flex flex-col sm:flex-row justify-between pt-16">
       <div class="pl-16 text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <span class="text-white text-small">Hi there, this is the website of</span>
         <div class="font-serif text-6xl text-black leading-tight">An Interactive designer</div>
@@ -9,7 +140,7 @@
       <div class="mt-8 sm:mt-0">
         <g-image src="https://res.cloudinary.com/aniboaz/image/upload/dpr_auto,q_auto:best/bgb.png" alt="hero" class="mx-auto sm:mx-0" />
       </div>
-    </div> <!-- end hero -->
+    </div> end old hero -->
 
 <div class="container mx-auto px-4">
         <Advantages />
@@ -155,6 +286,12 @@ export default {
   },
   components: {
     Advantages
+  },
+  data: {
+    line1: "people focused product designer",
+    line2: "product designer @ cloudinary",
+    line3: "animator, UX designer, redhead",
+    line4: "My name is Boaz Lederer 👋"
   }
 }
 </script>
