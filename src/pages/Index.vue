@@ -251,7 +251,28 @@
 	</div></div>
 </section>
 
+<section id="logos">
+<div class="flex flex-wrap overflow-hidden sm:-mx-1 md:-mx-1 lg:-mx-1 xl:-mx-1" id="logo-grid">
 
+  <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-full md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/4">
+    <!-- Column Content -->
+  </div>
+
+  <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-full md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/4">
+    <!-- Column Content -->
+  </div>
+
+  <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-full md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/4">
+    <!-- Column Content -->
+  </div>
+
+  <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-full md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/4">
+    <!-- Column Content -->
+  </div>
+
+</div>
+
+</section>
 
 
   </Layout>
