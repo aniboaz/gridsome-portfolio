@@ -26,7 +26,7 @@
             </g> </svg>
 
             <h3 class="text-xl font-serif my-2 font-heading">Autodidact</h3>
-            <p class="text-gray-500 leading-relaxed">As a very fast learner, I taught myself most of the programs and frameworks from a young age.I am keen on learning new things and I like to explore.</p>
+            <p class="text-gray-700 leading-relaxed">As a very fast learner, I taught myself most of the programs and frameworks from a young age.I am keen on learning new things and I like to explore.</p>
           </div>
 
     <div class="lg:w-1/4 px-4 mb-6 md:w-1/2">
@@ -44,7 +44,7 @@
 </svg>
 
       <h3 class="text-xl font-serif my-2 font-heading">Illustrator</h3>
-      <p class="text-gray-500 leading-relaxed">I always loved to draw and illustrate, I started with comics and studied art and color theories. now I am a highly skilled artist.</p>
+      <p class="text-gray-700 leading-relaxed">I always loved to draw and illustrate, I started with comics and studied art and color theories. now I am a highly skilled artist.</p>
     </div>
 
 <div class="lg:w-1/4 px-4 mb-6 md:w-1/2">
@@ -59,7 +59,7 @@
     <path class="d lash animated infinite flipInX" d="M23.97 95.53l14.12 11.12M33.29 87.63l10.24 9.45M110.66 57.15v13.66M95.42 58.33l3.67 13.65M66.75 67.15l9.67 12.38M45.04 79.53l9.49 9.15M55.21 72.44l7.7 10.77M82.42 60.43l3.33 11.55M209.09 95.53l-13.81 11.12M199.97 87.63l-10 9.45M124.53 57.37v13.66M139.34 59.33l-3.58 13.65M164.74 64.84l-9.45 12.38M188.49 79.53l-9.27 9.15M174.8 73.34l-7.52 10.77M149.04 62.43l-3.26 11.55"></path></svg>
 
   <h3 class="text-xl font-serif my-2 font-heading">Animator</h3>
-  <p class="text-gray-500 leading-relaxed">animation is more then just moving things around. after studying my B.F.A. in animation. I mastered several forms of animation including 2d and 3d.</p>
+  <p class="text-gray-700 leading-relaxed">animation is more then just moving things around. after studying my B.F.A. in animation. I mastered several forms of animation including 2d and 3d.</p>
 </div>
 <div class="lg:w-1/4 px-4 mb-6 md:w-1/2">
 
@@ -76,7 +76,7 @@
         </svg>
 
   <h3 class="text-xl font-serif my-2 font-heading">Team player</h3>
-  <p class="text-gray-500 leading-relaxed">Meaning people basicly ♥ me. As a brother of four, I obtained a great attitude to working in a close, highly energized, team-oriented environment.</p>
+  <p class="text-gray-700 leading-relaxed">Meaning people basicly ♥ me. As a brother of four, I obtained a great attitude to working in a close, highly energized, team-oriented environment.</p>
 </div>
 </div>
   </section>
