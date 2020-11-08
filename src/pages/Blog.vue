@@ -40,7 +40,7 @@
           {{ tag.title }}
         </g-link>
 
-        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h2>
+        <h2 class="sm:text-3xl text-2xl title-font font-serif text-gray-900 mt-4 mb-4"><g-link :to="post.node.path" class="text-copy-primary">{{ post.node.title }}</g-link></h2>
         <p class="leading-relaxed mb-8">{{ post.node.description }}</p>
         <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-200 mt-auto w-full">
           <a class="text-orange-500 inline-flex items-center"><g-link :to="post.node.path" class="font-bold uppercase">Read More...</g-link>
@@ -63,7 +63,7 @@
             <span class="text-gray-500 text-sm">UI DEVELOPER</span>
           </span>
         </a-->
-      </div>
+      </article>
 
     </div>
   </div>
@@ -87,7 +87,9 @@ query Posts ($page: Int) {
         title
         date (format: "MMMM D, Y")
         description
+        summary
         timeToRead
+        cover
         path
         tags {
           title
