@@ -42,6 +42,8 @@ export default {
     }
   }
 }
+
+// add codepen here https://static.codepen.io/assets/embed/ei.js
 </script>
 
 <style>
@@ -990,4 +992,3 @@ export default {
     padding-left: 128px!important;
   }
 </style>
-<script  src="https://static.codepen.io/assets/embed/ei.js"></script>
