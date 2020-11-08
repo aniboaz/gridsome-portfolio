@@ -32,11 +32,11 @@
     <div class="flex flex-wrap -m-12">
       <article v-for="post in $page.posts.edges" :key="post.id" class="p-12 md:w-1/2 flex flex-col items-start">
  <img class="lg:h-48 md:h-36 w-full object-cover object-center" :src="post.node.cover" :alt="post.node.title">
-      <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">  <g-link
+      <div class="flex-inner bottom-0 left-0 w-full py-4">  <g-link
           :to="tag.path"
           v-for="tag in post.node.tags"
           :key="tag.id"
-          class="inline-block py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest">
+          class="inline-block py-1 px-3 rounded bg-grey-500 text-orange-500 text-sm font-medium tracking-widest">
           {{ tag.title }}
         </g-link>
 </div>
