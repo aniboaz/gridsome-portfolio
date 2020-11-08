@@ -15,7 +15,7 @@ tags:
   - Ux
   - איפיון ממשק
 
-  lang: heb
+lang: heb
 ---
 <p class="graf--h3" dir="rtl">
   אחד מהמאפיינים הבולטים של  <a class="markup--anchor markup--p-anchor" href="http://2015.designweekly.atomic.io/">שנה שעברה</a> בעיצוב הייתה התחרות למציאת התכנה לאב-טיפוס(prototype) המושלמת

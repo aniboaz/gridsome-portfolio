@@ -18,7 +18,7 @@ tags:
   - כיף
   - עיצוב ממשק משתמש
 
-  lang: heb
+lang: heb
 ---
 <p dir="rtl">
   <img class="alignleft" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/sites/2/2015/03/summerui05-300x200.jpg" alt="my dribbble shot" width="300" height="200" />

@@ -20,7 +20,7 @@ tags:
   - Ux
   - אפיון ממשק משתמש
   - עברית
-
+lang: heb
 ---
 <h2 dir="rtl" style="text-align: right;">
   אמרו את זה קודם, לפניי
@@ -28,7 +28,7 @@ tags:
 
 <div id="attachment_67" style="width: 330px" class="wp-caption alignright">
   <a href="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/picasso-no-banksy.gif"><img class="wp-image-67 size-thumbnail" title="&quot;The Bad artist imitate, the great artist steal&quot; Banksy" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/picasso-no-banksy-320x320.gif" alt="&quot;The Bad artist imitate, the great artist steal&quot; Banksy" width="320" height="320" /></a>
-  
+
   <p class="wp-caption-text">
     בנקסי בפרפרזה למשפט המפורסם של פיקסו :&#8221;האמן הרע מחקה, האמן הדגול &#8211; גונב.&#8221;
   </p>
@@ -76,7 +76,7 @@ tags:
 
 <div id="attachment_278" style="width: 210px" class="wp-caption alignleft">
   <a href="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/IMG_0705.jpg"><img class="size-medium wp-image-278" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/IMG_0705-200x300.jpg" alt="מעבר בין משימות בios 4" width="200" height="300" /></a>
-  
+
   <p class="wp-caption-text">
     מעבר בין משימות בios 4
   </p>
@@ -96,7 +96,7 @@ tags:
 
 <div id="attachment_285" style="width: 170px" class="wp-caption alignright">
   <a href="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/ios-7-multitasking-100042371-medium.png"><img class="wp-image-285 size-medium" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/ios-7-multitasking-100042371-medium-160x300.png" alt="" width="160" height="300" /></a>
-  
+
   <p class="wp-caption-text">
     ios7
   </p>
@@ -116,7 +116,7 @@ tags:
 
 <div id="attachment_229" style="width: 330px" class="wp-caption alignright">
   <a href="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/ios.jpg"><img class="wp-image-229 size-thumbnail" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/ios-320x320.jpg" alt="safari multitasking" width="320" height="320" /></a>
-  
+
   <p class="wp-caption-text">
     safari multitasking
   </p>
@@ -142,7 +142,7 @@ tags:
 
 <div id="attachment_66" style="width: 560px" class="wp-caption alignleft">
   <img class="wp-image-66 size-full" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/diag-apple-social-coverflow-01.jpg" alt="apple coverflow patent" width="550" height="350" srcset="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/diag-apple-social-coverflow-01.jpg 550w, http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/diag-apple-social-coverflow-01-420x267.jpg 420w, http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/diag-apple-social-coverflow-01-120x76.jpg 120w" sizes="(max-width: 550px) 100vw, 550px" />
-  
+
   <p class="wp-caption-text">
     הפטנט שרשמה apple על coverflow
   </p>
@@ -158,7 +158,7 @@ tags:
 
 <div id="attachment_70" style="width: 330px" class="wp-caption alignright">
   <a href="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/Screenshot_2014-11-21-10-20-59.jpg"><img class="wp-image-70 size-thumbnail" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/2014/11/Screenshot_2014-11-21-10-20-59-320x320.jpg" alt="android lollipop multitask" width="320" height="320" /></a>
-  
+
   <p class="wp-caption-text">
     לחץ כדי לראות מה אני כותב לאשתי
   </p>
