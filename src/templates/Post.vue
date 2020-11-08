@@ -990,4 +990,4 @@ export default {
     padding-left: 128px!important;
   }
 </style>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<script  src="https://static.codepen.io/assets/embed/ei.js"></script>
