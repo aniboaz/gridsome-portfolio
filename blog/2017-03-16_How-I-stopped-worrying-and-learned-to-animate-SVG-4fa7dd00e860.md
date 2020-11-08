@@ -3,7 +3,7 @@ title: How I stopped worrying and learned to animate SVG
 author: Boaz Lederer
 description: So you want to create animated icons for your site?
 date: '2017-03-16T06:32:00.543Z'
-categories: []
+categories: ["code"]
 keywords: ["Tag:SVG","Tag:CSS","Tag:Design"]
 slug: /@aniboaz/animate-svg-4fa7dd00e860
 cover: https://res.cloudinary.com/aniboaz/image/upload/f_auto,q_auto/Blog/animate-svg.jpg
@@ -78,21 +78,21 @@ Animate.css is just the most popular solution. You can find more ‘user friendl
 
 The main idea of **animate.css** is a ready-made animation library. First we define the duration:
 
-```
+```css
 .animated {-webkit-animation-duration: 1s;animation-duration: 1s;}
 ```
 
 1s means one second. Then, each animation like ‘pulse’ has its key-frames defined. Telling us from which attributes to which should the animation take place.
 
-```
+```css
 @-webkit-keyframes pulse {  from {    -webkit-transform: scale3d(1, 1, 1);    transform: scale3d(1, 1, 1);  }
 ```
 
-```
+```css
   50% {    -webkit-transform: scale3d(1.05, 1.05, 1.05);    transform: scale3d(1.05, 1.05, 1.05);  }
 ```
 
-```
+```css
   to {    -webkit-transform: scale3d(1, 1, 1);    transform: scale3d(1, 1, 1);  }}
 ```
 
@@ -109,19 +109,19 @@ Second, this method means we can create our own css animations, and do something
 
 Lets say I made this animation of an eye opening and closing.
 
-```
+```css
 @keyframes eye { 0% { transform: scale(1, 1); stroke-width: 2px; } 100%{ transform: scale(1, 0); stroke-width: 20px; } }
 ```
 
 If I want to change the timing so it will blink fast and stay opened I’ll play around with the %
 
-```
+```css
 @keyframes eye { 5%, 20% { transform: scale(1, 1); stroke-width: 2px; } 10%, 15% { transform: scale(1, 0); stroke-width: 20px; } }
 ```
 
 Using the same principle means I can make the eye move left and right and more..
 
-```
+```css
 @keyframes pupil {  100%, 30% { transform: scale(1, 1); } 2%, 20% { transform: scale(1.2, 1.2); } 9%, 16% { transform: scale(0, 0); } 75%, 50%, 35% { transform: translate(20px, -4px); } 55%, 65% { transform: translate(-20px, 5px);  }  }
 ```
 
