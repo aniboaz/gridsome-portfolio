@@ -16,6 +16,7 @@ tags:
   - עיצוב אתרים
   - עיצוב ממשק משתמש
 
+  lang: heb
 ---
 <p dir="rtl">
   בזמן האחרון, שמתי לב לצמד מילים שחוזר על עצמו בכל מקום. צמד המילים שעליכם לשים לב אליו הוא &#8211; Design patterns.
@@ -67,7 +68,7 @@ tags:
 
 <div style="width: 530px" class="wp-caption alignleft">
   <img src="http://campsite-studio.com/wp-content/uploads/2011/07/nasa_brand1_07242011.jpg" alt="" width="520" height="340" />
-  
+
   <p class="wp-caption-text">
     ספר החוקים של נאסא
   </p>
@@ -87,7 +88,7 @@ tags:
 
 <div id="attachment_1118" style="width: 490px" class="wp-caption alignnone">
   <img class="wp-image-1118 size-thumbnail" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/2016/02/Screenshot_9-480x640.png" alt="Frontify" width="480" height="640" />
-  
+
   <p class="wp-caption-text">
     דוגמא לסטיילגייד במערכת frontify.
   </p>
@@ -123,7 +124,7 @@ tags:
 
 <div id="attachment_1142" style="width: 323px" class="wp-caption alignright">
   <img class="size-full wp-image-1142" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/2016/02/datepicker.jpg" alt="דוגמא לתבנית - datepicker" width="313" height="314" />
-  
+
   <p class="wp-caption-text">
     דוגמא לתבנית &#8211; datepicker
   </p>
@@ -151,7 +152,7 @@ tags:
 
 <div id="attachment_1114" style="width: 856px" class="wp-caption aligncenter">
   <img class="wp-image-1114 size-full" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/2016/01/google.png" alt="google materials guidlines" width="846" height="530" srcset="http://www.aniboaz.co.il/Blog/wp-content/uploads/2016/01/google.png 846w, http://www.aniboaz.co.il/Blog/wp-content/uploads/2016/01/google-595x373.png 595w, http://www.aniboaz.co.il/Blog/wp-content/uploads/2016/01/google-768x481.png 768w, http://www.aniboaz.co.il/Blog/wp-content/uploads/2016/01/google-700x439.png 700w" sizes="(max-width: 846px) 100vw, 846px" />
-  
+
   <p class="wp-caption-text">
     google materials guidlines
   </p>

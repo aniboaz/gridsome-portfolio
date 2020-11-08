@@ -157,7 +157,7 @@
                 <div class="h-full bg-background-primary pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary"> <img :src="post.node.cover" :alt="post.node.title">
                     <div class="px-6"><small>{{ post.node.date }}| {{ post.node.timeToRead }} min read</small>
                       <h3 class="text-xl my-3 font-heading">{{ post.node.title }}</h3>
-                      <p class="text-gray-700">  {{ post.node.summary }}</p>
+                      <p class="text-gray-700">  {{ post.node.description }}</p>
                     </div></g-link></div>
               </div>
           </div>
@@ -293,7 +293,7 @@ query Posts ($page: Int) {
         id
         title
         date (format: "MMMM D, Y")
-        summary
+        description
         timeToRead
         path
         cover

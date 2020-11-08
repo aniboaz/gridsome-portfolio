@@ -52,7 +52,7 @@ module.exports = {
         },
         feedItemOptions: node => ({
           title: node.title,
-          description: node.summary,
+          description: node.description,
           url: 'https://aniboaz.netlify.com' + node.path,
           author: 'Boaz Lederer',
           date: node.date
