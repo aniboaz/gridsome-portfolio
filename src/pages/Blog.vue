@@ -31,7 +31,7 @@
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-12">
       <article v-for="post in $page.posts.edges" :key="post.id" class="p-12 md:w-1/2 flex flex-col items-start">
-
+ <img class="lg:h-48 md:h-36 w-full object-cover object-center" :src="post.node.cover" :alt="post.node.title">
         <g-link
           :to="tag.path"
           v-for="tag in post.node.tags"
