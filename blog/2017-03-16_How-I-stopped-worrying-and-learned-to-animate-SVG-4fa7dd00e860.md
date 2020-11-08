@@ -57,7 +57,7 @@ vector illustration made with (surprise) illustrator
 
 So After I exported my icons from [illustrator](https://css-tricks.com/using-svg/) (or [Sketch](https://medium.com/sketch-app-sources/exploring-ways-to-export-clean-svg-icons-with-sketch-the-correct-way-752e73ec4694#.nebaa6ybt)). I saw that I can view the same svg file as source in my browser. While there still were many many 1’s and zeros, I saw some familiar faces.
 
-There’s **<Path> **, **Fill**, a **pattern**, even groups (**<g>**). hmm, not so complicated. And turns out all of the bloated code of numbers is a real issue, and the easy fix for it is called SVG-Optimize. And beginners can even use its amazing gui version [SVGOMG](https://jakearchibald.github.io/svgomg/) — a must for anyone working with svg.
+There’s `<Path>` , `Fill`, a `pattern`, even groups (`<g>`). hmm, not so complicated. And turns out all of the bloated code of numbers is a real issue, and the easy fix for it is called SVG-Optimize. And beginners can even use its amazing gui version [SVGOMG](https://jakearchibald.github.io/svgomg/) — a must for anyone working with svg.
 
 Ok now the code is lighter and I can see whats what in the html. This means will be able to manipulate stuff like “fill”, Stroke, width and so on..
 
@@ -68,7 +68,9 @@ So lets try to give it motion
 So how can I animate it with minimum fuss? On my website I use the (now conventional) [animate.css](https://daneden.github.io/animate.css/).  
 Because I made a Heart icon, i’ll add it a pulsing animation like this:
 
+```html
 <path class="**animated pulse infinite**">
+```
 
 And that’s all folks. that’s as simple as it gets.
 
