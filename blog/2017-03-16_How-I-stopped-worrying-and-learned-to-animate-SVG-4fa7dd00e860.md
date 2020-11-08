@@ -126,12 +126,14 @@ Using the same principle means I can make the eye move left and right and more..
 ```
 
 ### The final animation:
+
 <p class="codepen" data-height="727" data-theme-id="light" data-default-tab="html,result" data-user="Aniboaz" data-slug-hash="WpvpKO" data-editable="true" style="height: 727px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="SVG animations for portfolio">
   <span>See the Pen <a href="https://codepen.io/Aniboaz/pen/WpvpKO">
   SVG animations for portfolio</a> by Boaz (<a href="https://codepen.io/Aniboaz">@Aniboaz</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async defer src="https://static.codepen.io/assets/embed/ei.js"></script>
+
 ### Pro — use animation libraries and Javascript
 
 The libraries give more animation power as well as interactivity goodness. Right now the top animation libraries that I know of are:
@@ -146,7 +148,6 @@ The libraries give more animation power as well as interactivity goodness. Right
 
 This article helped me a-lot :
 
-[**Animate SVG with CSS**  
-_Animating SVG with CSS is like animating any other element with CSS-it can be done with transitions, transforms, and…_jonsuh.com](https://jonsuh.com/blog/animate-svg-with-css/ "https://jonsuh.com/blog/animate-svg-with-css/")[](https://jonsuh.com/blog/animate-svg-with-css/)
+> [**Animating SVG with CSS** is like animating any other element with CSS-it can be done with transitions, transforms, and…](https://jonsuh.com/blog/animate-svg-with-css/ "https://jonsuh.com/blog/animate-svg-with-css/")[](https://jonsuh.com/blog/animate-svg-with-css/)
 
 [originally published on my blog](http://www.aniboaz.co.il/Blog/blog/2017/03/14/svg-anim/) in hebrew
