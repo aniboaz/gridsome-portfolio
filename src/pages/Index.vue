@@ -63,7 +63,7 @@
         </svg>
       </div>
       <img class="ring" src="https://res.cloudinary.com/aniboaz/image/upload/r_max,c_fit,w_400,h_400,dpr_auto,q_auto:best/bgb.png" width="200">
-      <style scoped="css">
+      <style scoped type="css">
       section{width: 100%;
       height: 100%;
       display: flex;
@@ -255,7 +255,7 @@
 <div class="flex flex-wrap overflow-hidden sm:-mx-1 md:-mx-1 lg:-mx-1 xl:-mx-1" id="logo-grid">
 
   <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-full md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/4">
-    <!-- Column Content -->
+    <img src="https://res.cloudinary.com/aniboaz/image/upload/f_auto/logos/cloudinary_logo_text.svg"><!-- Column Content -->
   </div>
 
   <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-full md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/4">
