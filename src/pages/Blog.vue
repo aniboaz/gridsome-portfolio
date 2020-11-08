@@ -87,7 +87,6 @@ query Posts ($page: Int) {
         title
         date (format: "MMMM D, Y")
         description
-        summary
         timeToRead
         cover
         path
