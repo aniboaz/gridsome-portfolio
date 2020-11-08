@@ -89,6 +89,10 @@ query Posts ($page: Int) {
         summary
         timeToRead
         path
+        tags {
+          title
+          path
+        }
       }
     }
   }
