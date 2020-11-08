@@ -17,7 +17,6 @@ tags:
   - Ux
   - כיף
   - עיצוב ממשק משתמש
-
 lang: heb
 ---
 <p dir="rtl">

@@ -14,7 +14,6 @@ tags:
   - prototyping
   - Ux
   - איפיון ממשק
-
 lang: heb
 ---
 <p class="graf--h3" dir="rtl">
