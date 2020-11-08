@@ -129,7 +129,7 @@ Using the same principle means I can make the eye move left and right and more..
 
 ### The final animation:
 
-<p class="codepen" data-height="727" data-theme-id="light" data-default-tab="html,result" data-user="Aniboaz" data-slug-hash="WpvpKO" data-editable="true" style="height: 727px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="SVG animations for portfolio">
+<p class="codepen" data-height="727" data-default-tab="html,result" data-user="Aniboaz" data-slug-hash="WpvpKO" data-editable="true" style="height: 727px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="SVG animations for portfolio">
   <span>See the Pen <a href="https://codepen.io/Aniboaz/pen/WpvpKO">
   SVG animations for portfolio</a> by Boaz (<a href="https://codepen.io/Aniboaz">@Aniboaz</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
