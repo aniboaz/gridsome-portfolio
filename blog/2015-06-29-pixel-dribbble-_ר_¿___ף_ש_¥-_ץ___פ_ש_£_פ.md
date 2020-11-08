@@ -18,6 +18,7 @@ tags:
   - כיף
   - עיצוב ממשק משתמש
 
+  lang: heb
 ---
 <p dir="rtl">
   <img class="alignleft" src="http://www.aniboaz.co.il/Blog/wp-content/uploads/sites/2/2015/03/summerui05-300x200.jpg" alt="my dribbble shot" width="300" height="200" />
@@ -103,7 +104,7 @@ tags:
 
 <div style="width: 1930px" class="wp-caption alignright">
   <img src="http://www.uxsalon.com/wp-content/uploads/2015/03/15858250476_1611593fd0_k-1920x1440.jpg" alt="" width="1920" height="1440" />
-  
+
   <p class="wp-caption-text">
     ux salon בדיון לאחר הרצאה
   </p>
