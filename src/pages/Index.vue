@@ -1,8 +1,8 @@
 <template>
   <Layout>
-<section>
+<!--section>
     <!-- Idea adapted from http://jsfiddle.net/dbushell/32mAb/2/
-    var font animation: https://css-irl.info/variable-font-animation-with-css-and-splitting-js/-->
+    var font animation: https://css-irl.info/variable-font-animation-with-css-and-splitting-js/->
 
     <div class="ring" id="ring">
       <svg class="ring-text-1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600" height="600" viewBox="0 0 300 300">
@@ -133,10 +133,9 @@
         }
       }
       </style>
-</section>
+</section-->
 
-
-    <!--div class="hero bg-ginger mx-auto flex flex-col sm:flex-row justify-between pt-16">
+    <div class="hero bg-ginger mx-auto flex flex-col sm:flex-row justify-between pt-16">
       <div class="pl-16 text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <span class="text-white text-small">Hi there, this is the website of</span>
         <div class="font-serif text-6xl text-black leading-tight">An Interactive designer</div>
@@ -145,7 +144,7 @@
       <div class="mt-8 sm:mt-0">
         <g-image src="https://res.cloudinary.com/aniboaz/image/upload/dpr_auto,q_auto:best/bgb.png" alt="hero" class="mx-auto sm:mx-0" />
       </div>
-    </div> end old hero -->
+    </div> <!--end old hero -->
 
 <div class="container mx-auto px-4">
         <Advantages />
@@ -251,7 +250,10 @@
 	</div></div>
 </section>
 
-<section id="logos">
+<section id="logos" class="py-12 px-4 text-center">
+  <span class="text-sm font-semibold">sub</span>
+    <h1 class="text-purple text-4xl font-serif font-heading"> Proud to work with</h1>
+
 <div class="flex flex-wrap overflow-hidden sm:-mx-1 md:-mx-1 lg:-mx-1 xl:-mx-1" id="logo-grid">
 
   <div class="w-full overflow-hidden sm:my-1 sm:px-1 sm:w-full md:my-1 md:px-1 md:w-1/2 lg:my-1 lg:px-1 lg:w-1/2 xl:my-1 xl:px-1 xl:w-1/4">
