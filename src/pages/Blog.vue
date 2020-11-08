@@ -34,7 +34,7 @@
 
         <g-link
           :to="tag.path"
-          v-for="tag in $page.post.tags"
+          v-for="tag in $page.post.edge.tags"
           :key="tag.id"
           class="inline-block py-1 px-3 rounded bg-orange-100 text-orange-500 text-sm font-medium tracking-widest">
           {{ tag.title }}
