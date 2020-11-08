@@ -131,7 +131,7 @@ Using the same principle means I can make the eye move left and right and more..
   SVG animations for portfolio</a> by Boaz (<a href="https://codepen.io/Aniboaz">@Aniboaz</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+<script async defer src="https://static.codepen.io/assets/embed/ei.js"></script>
 ### Pro — use animation libraries and Javascript
 
 The libraries give more animation power as well as interactivity goodness. Right now the top animation libraries that I know of are:
