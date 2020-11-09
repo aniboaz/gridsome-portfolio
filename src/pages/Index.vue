@@ -139,7 +139,7 @@
       <div class="pl-16 text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <span class="text-white text-small">Hi there, this is the website of</span>
         <div class="font-serif text-6xl text-black leading-tight">An Interactive designer</div>
-        <div class="text-purple leading-tight">Product Designer & Animator called <i>Boaz.</i></div>
+        <div class="text-copy-primary leading-tight">Product Designer & Animator called <i>Boaz.</i></div>
       </div>
       <div class="mt-8 sm:mt-0">
         <g-image src="https://res.cloudinary.com/aniboaz/image/upload/dpr_auto,q_auto:best/bgb.png" alt="hero" class="mx-auto sm:mx-0" />
@@ -170,7 +170,7 @@
                       <div class="flex flex-wrap -mx-4">
                         <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
                           <div class="flex flex-col h-full p-8 rounded">
-                            <span class="text-sm font-semibold text-purple">more about me</span>
+                            <span class="text-sm font-semibold text-copy-primary">more about me</span>
                             <h2 class="text-4xl mb-2 font-heading font-serif">I have been specializing in graphic design and animation for over 10 years. </h2>
                             <h3 class="text-3xl mb-2 font-heading">I'm social, autodidact, independent and very creative. </h3>
                             <p class="max-w-sm mt-auto mb-8 text-copy-secondary leading-relaxed">After studying animation and film at Sapir academic college, I started working as head of graphics @ Mizmor-HD video productions. Studied User Experience design @Netcraft. then got the opportunity to be a full-time GUI expert @ Inkod-hypera. Currently Product designer <a href="#">@ Cloudinary.</a></p>
@@ -252,7 +252,7 @@
 
 <section id="logos" class="py-12 px-4 text-center">
   <span class="text-sm font-semibold">sub</span>
-    <h1 class="text-purple text-4xl font-serif font-heading"> Proud to work with</h1>
+    <h1 class="text-copy-primary text-4xl font-serif font-heading"> Proud to work with</h1>
 
 <div class="flex flex-wrap overflow-hidden sm:-mx-1 md:-mx-1 lg:-mx-1 xl:-mx-1" id="logo-grid">
 
