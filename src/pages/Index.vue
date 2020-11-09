@@ -157,7 +157,7 @@
                 <div class="h-full bg-background-primary pb-8 rounded shadow-md"><g-link :to="post.node.path" class="text-copy-primary"> <img :src="post.node.cover" :alt="post.node.title">
                     <div class="px-6"><small>{{ post.node.date }}| {{ post.node.timeToRead }} min read</small>
                       <h3 class="text-xl my-3 font-heading">{{ post.node.title }}</h3>
-                      <p class="text-gray-700">  {{ post.node.description }}</p>
+                      <p class="text-copy-secondary">  {{ post.node.description }}</p>
                     </div></g-link></div>
               </div>
           </div>
@@ -173,7 +173,7 @@
                             <span class="text-sm font-semibold text-purple">more about me</span>
                             <h2 class="text-4xl mb-2 font-heading font-serif">I have been specializing in graphic design and animation for over 10 years. </h2>
                             <h3 class="text-3xl mb-2 font-heading">I'm social, autodidact, independent and very creative. </h3>
-                            <p class="max-w-sm mt-auto mb-8 text-gray-700 leading-relaxed">After studying animation and film at Sapir academic college, I started working as head of graphics @ Mizmor-HD video productions. Studied User Experience design @Netcraft. then got the opportunity to be a full-time GUI expert @ Inkod-hypera. Currently Product designer <a href="#">@ Cloudinary.</a></p>
+                            <p class="max-w-sm mt-auto mb-8 text-copy-secondary leading-relaxed">After studying animation and film at Sapir academic college, I started working as head of graphics @ Mizmor-HD video productions. Studied User Experience design @Netcraft. then got the opportunity to be a full-time GUI expert @ Inkod-hypera. Currently Product designer <a href="#">@ Cloudinary.</a></p>
                           </div>
                         </div>
 
@@ -196,7 +196,7 @@
 		<div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
 			<div class="flex flex-col h-full p-8 bg-gray-200 rounded">
 				<h2 class="text-3xl font-heading">Dunder Friends, a.k.a Companies Who Work With Us</h2>
-				<p class="max-w-sm mt-auto mb-8 text-gray-700 leading-relaxed">We don’t believe in paperless future - so do our Customers.</p><a class="text-right text-blue-700 hover:underline" href="#">View all Dunder Mifflin customers</a>
+				<p class="max-w-sm mt-auto mb-8 text-copy-secondary leading-relaxed">We don’t believe in paperless future - so do our Customers.</p><a class="text-right text-blue-700 hover:underline" href="#">View all Dunder Mifflin customers</a>
 			</div>
 		</div>
 	</div>

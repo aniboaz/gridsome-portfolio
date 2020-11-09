@@ -72,7 +72,7 @@ export default {
   .markdown-body h4 .octicon-link,
   .markdown-body h5 .octicon-link,
   .markdown-body h6 .octicon-link {
-    color: #1b1f23;
+    color: var(--text-copy-primary);
     vertical-align: middle;
     visibility: hidden;
   }
@@ -98,7 +98,7 @@ export default {
   .markdown-body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    color: #24292e;
+    color: var(--text-copy-primary);
     line-height: 1.5;
     font-size: 20px;
     line-height: 1.5;
@@ -304,7 +304,7 @@ export default {
   .markdown-body hr {
     background: transparent;
     border: 0;
-    border-bottom: 1px solid #dfe2e5;
+    border-bottom: 1px solid var(--bg-background-tertiary);
     height: 0;
     margin: 15px 0;
     overflow: hidden;
@@ -434,7 +434,7 @@ export default {
   }
 
   .markdown-body .border {
-    border: 1px solid #e1e4e8!important;
+    border: 1px solid var(--bg-background-tertiary)!important;
   }
 
   .markdown-body .border-0 {
@@ -442,7 +442,7 @@ export default {
   }
 
   .markdown-body .border-bottom {
-    border-bottom: 1px solid #e1e4e8!important;
+    border-bottom: 1px solid var(--bg-background-tertiary)!important;
   }
 
   .markdown-body .rounded-1 {
@@ -454,11 +454,11 @@ export default {
   }
 
   .markdown-body .bg-gray-light {
-    background-color: #fafbfc!important;
+    background-color: var(--bg-background-tertiary)!important;
   }
 
   .markdown-body .text-gray-light {
-    color: #6a737d!important;
+    color: var(--text-copy-secondary)!important;
   }
 
   .markdown-body .mb-0 {

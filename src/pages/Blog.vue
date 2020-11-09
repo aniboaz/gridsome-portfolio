@@ -27,7 +27,7 @@
     </div>
 
 <!--new-->
-<section class="text-gray-700 body-font overflow-hidden">
+<section class="text-copy-secondary body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-12">
       <article v-for="post in $page.posts.edges" :key="post.id" class="p-12 md:w-1/2 flex flex-col items-start">
