@@ -44,7 +44,7 @@ export default {
 }
 import VueScrollProgress from 'vue-scroll-progress'
 
-Vue.use(VueScrollProgress)
+this.use(VueScrollProgress)
 // add codepen here https://static.codepen.io/assets/embed/ei.js
 </script>
 
