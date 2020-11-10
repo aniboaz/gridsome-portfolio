@@ -112,7 +112,6 @@ export default {
   .markdown-body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    color: var(--text-copy-primary);
     line-height: 1.5;
     font-size: 20px;
     line-height: 1.5;
@@ -253,6 +252,8 @@ export default {
 
   .markdown-body a {
     background-color: transparent;
+    color: var(--text-copy-primary);
+    border-bottom: 2px solid var(--bg-background-border);
   }
 
   .markdown-body a:active,
@@ -641,7 +642,6 @@ export default {
   }
 
   .markdown-body h6 {
-    color: #6a737d;
     font-size: .85em;
   }
 
