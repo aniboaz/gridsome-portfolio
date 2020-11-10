@@ -34,17 +34,16 @@ query Post ($path: String!) {
 }
 </page-query>
 
-<script>
+<script>import VueScrollProgress from 'vue-scroll-progress'
 export default {
   metaInfo() {
     return {
       title: this.$page.post.title
     }
-  }
+  },
+  mounted() {this.use(VueScrollProgress)}
 }
-import VueScrollProgress from 'vue-scroll-progress'
 
-this.use(VueScrollProgress)
 // add codepen here https://static.codepen.io/assets/embed/ei.js
 </script>
 
