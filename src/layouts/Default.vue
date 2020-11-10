@@ -12,7 +12,7 @@
           <g-link v-else to="/"><g-image src="../../static/logo_dark_mode.svg" class="w-40" alt="logo" /></g-link-->
         </div>
         <div class="block lg:hidden">
-          <button @click="toggle" class="flex items-center px-3 py-2 border rounded border-gray-700 hover:text-gray-600 hover:border-gray-600">
+          <button @click="toggle" class="flex items-center px-3 py-2 border rounded border-gray-700 hover:text-border-color-primary hover:border-gray-600">
 <svg  v-show="isOpen" xmlns="https://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
             <svg  class="current-color h-3 w-3 " :class="isOpen ? 'hidden': 'block'" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" fill="gray" /></svg>
           </button>
@@ -27,20 +27,20 @@
           <li class="mr-8 mb-6 lg:mb-0">
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
+          <!--li class="mr-8 mb-6 lg:mb-0">
+            <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="text-copy-primary hover:text-border-color-primary">Projects</a>
+            <g-link v-else to="/#projects" class="text-copy-primary hover:text-border-color-primary">Projects</g-link>
+          </li-->
           <li class="mr-8 mb-6 lg:mb-0">
-            <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="text-copy-primary hover:text-gray-600">Projects</a>
-            <g-link v-else to="/#projects" class="text-copy-primary hover:text-gray-600">Projects</g-link>
+            <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-copy-primary hover:text-border-color-primary">About</a>
+            <g-link v-else to="/#about" class="text-copy-primary hover:text-border-color-primary">About</g-link>
           </li>
-          <li class="mr-8 mb-6 lg:mb-0">
-            <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-copy-primary hover:text-gray-600">About</a>
-            <g-link v-else to="/#about" class="text-copy-primary hover:text-gray-600">About</g-link>
-          </li>
-          <li class="mr-8 mb-6 lg:mb-0">
-            <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">Contact</a>
-            <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
-          </li>
+          <!--li class="mr-8 mb-6 lg:mb-0">
+            <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-border-color-primary">Contact</a>
+            <g-link v-else to="/#contact" class="text-copy-primary hover:text-border-color-primary">Contact</g-link>
+          </li-->
           <li>
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
+            <g-link to="/blog" class="text-copy-primary hover:text-border-color-primary">Blog</g-link>
           </li>
         </ul>
       </nav>
@@ -49,7 +49,7 @@
     <div class="flex-grow">
       <slot/>
     </div>
-    <footer class="bg-green-700 text-white">
+    <footer class="bg-background-tertiary">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div>Copyright {{ new Date().getFullYear() }}. All rights reserved.</div>

@@ -135,7 +135,7 @@
       </style>
 </section-->
 
-    <div class="hero bg-ginger mx-auto flex flex-col sm:flex-row justify-between pt-16">
+    <div class="hero bg-background-tertiary mx-auto flex flex-col sm:flex-row justify-between pt-16">
       <div class="pl-16 text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <span class="text-white text-small">Hi there, this is the website of</span>
         <div class="font-serif text-6xl text-black leading-tight">An Interactive designer</div>

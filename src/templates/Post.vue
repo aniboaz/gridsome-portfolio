@@ -558,7 +558,6 @@ export default {
   }
 
   .markdown-body a:not([href]) {
-    color: inherit;
     text-decoration: none;
   }
 
