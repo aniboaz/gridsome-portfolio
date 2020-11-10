@@ -1,6 +1,6 @@
 <template>
   <Layout><VueScrollProgress></VueScrollProgress>
-    <div class="container-inner mx-auto my-16">
+    <article class="container-inner mx-auto my-16">
       <h1 class="text-6xl font-serif font-bold leading-tight">{{ $page.post.title }}</h1>
       <div class="text-xl text-copy-secondary mb-4">{{ $page.post.date }}</div>
       <div class="flex mb-8 text-sm">
@@ -12,11 +12,11 @@
           {{ tag.title }}
         </g-link>
       </div>
-      <div class="markdown-body mb-8" v-html="$page.post.content" />
+      <div class="prose mb-8" v-html="$page.post.content" />
       <div class="mb-8">
         <g-link to="/blog" class="font-bold">Back to Blog</g-link>
       </div>
-    </div>
+    </article>
   </Layout>
 </template>
 
@@ -61,7 +61,7 @@ export default {
   /* progress bar */
   background-color: var(--border-border-color-primary) !important;
 }
-  /* Modified version of: https://github.com/sindresorhus/github-markdown-css */
+  /* Modified version of: https://github.com/sindresorhus/github-markdown-css
 
   .markdown-body .octicon {
     display: inline-block;
@@ -1003,5 +1003,5 @@ export default {
 
   .markdown-body .pl-12 {
     padding-left: 128px!important;
-  }
+  }*/
 </style>
