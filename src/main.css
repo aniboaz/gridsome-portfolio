@@ -4,7 +4,7 @@
 
 @tailwind utilities;
 
-.theme-light {
+.old-light {
   --bg-background-primary: ghostwhite;
   --bg-background-secondary: #f7fafc;
   --bg-background-tertiary: #e2e8f0;
@@ -19,11 +19,11 @@
 }
 
 .theme-light .search-hover:hover {
-  background: #f0fff4;
+  background: var(--bg-background-primary);
 }
 
 .theme-dark .markdown-body {
-    color: #24292e;
+    color: var(--text-copy-primary);
 }
 
 .theme-dark .search-highlighted {
@@ -49,7 +49,7 @@
 }
 
 /* new themes go here*/
-.orange-light {
+.theme-light {
 
 --bg-background-primary: #fff3ce;
 --bg-background-secondary: #ffc570;
@@ -87,11 +87,11 @@
 }
 
 a {
-  @apply text-green-700 font-bold;
+  @apply border-border-color-primary font-bold;
 }
 
 a:hover {
-  @apply text-green-800;
+  @apply border-border-color-primary;
 }
 
 nav .active {
