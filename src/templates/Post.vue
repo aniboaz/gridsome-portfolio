@@ -41,13 +41,23 @@ export default {
       title: this.$page.post.title
     }
   },
-  mounted() {Vue.use(VueScrollProgress)}
+  mounted() {this.use(VueScrollProgress)}
 }
 
 // add codepen here https://static.codepen.io/assets/embed/ei.js
 </script>
 
 <style>
+/* VueScrollProgress */
+#progress-container-el {
+  /* background */
+  background-color: var(--bg-background-primary) !important;
+}
+
+#progress-el {
+  /* progress bar */
+  background-color: var(--border-border-color-primary) !important;
+}
   /* Modified version of: https://github.com/sindresorhus/github-markdown-css */
 
   .markdown-body .octicon {
