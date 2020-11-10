@@ -41,7 +41,7 @@ export default {
       title: this.$page.post.title
     }
   },
-  mounted() {this.use(VueScrollProgress)}
+  mounted() {Vue.use(VueScrollProgress)}
 }
 
 // add codepen here https://static.codepen.io/assets/embed/ei.js
