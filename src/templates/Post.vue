@@ -50,7 +50,7 @@ export default {
 // add codepen here https://static.codepen.io/assets/embed/ei.js
 </script>
 
-<style scoped>
+<style>
 /* VueScrollProgress */
 #progress-container-el {
   /* background */
