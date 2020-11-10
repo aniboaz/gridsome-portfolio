@@ -34,7 +34,7 @@
   background: #2d3748;
 }
 
-.theme-dark {
+.old-dark {
   --bg-background-primary: #0D2438;
   --bg-background-secondary: #102C44;
   --bg-background-tertiary: #1E3951;
@@ -59,8 +59,7 @@
 --text-copy-secondary: #2b1d58;
 --border-border-color-primary: #ff7600;
 }
-.Dark-orange {
-
+.dark-orange {
 --bg-background-primary: #ff5522;
 --bg-background-secondary: #fc953c;
 --bg-background-tertiary: #ffac93;
@@ -68,9 +67,8 @@
 --text-copy-primary: #4c0066;
 --text-copy-secondary: #000000;
 --border-border-color-primary: #1a202c;
-
 }
-.darker-dark{--bg-background-primary: #19101f;
+.theme-dark{--bg-background-primary: #19101f;
 --bg-background-secondary: #1c1123;
 --bg-background-tertiary: #000000;
 --bg-background-form: #000000;
