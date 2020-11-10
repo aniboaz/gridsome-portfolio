@@ -4,6 +4,8 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
+
+import VueScrollProgress from 'vue-scroll-progress'
 //try to import codepen import e from "https://static.codepen.io/assets/embed/ei.js";
 
 export default function (Vue, { router, head, isClient }) {

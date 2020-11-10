@@ -1,3 +1,4 @@
+<style src="../main.css" />
 <template>
 <!--  <div class="spinner" title="Loading..." v-if="loading < 100">Loading...</div> <transition name="fade">
        <progress v-if="loading < 100" class="progress is-small is-link is-radiusless" :value="loading" max="100">{{loading}}%</progress>
@@ -110,7 +111,7 @@ export default {
 }
 </script>
 
-<style src="../main.css" />
+
 <style lang="css">
      /*spinner thanks to https://projects.lukehaas.me/css-loaders/*/
      .spinner,

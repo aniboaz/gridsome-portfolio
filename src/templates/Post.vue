@@ -34,7 +34,8 @@ query Post ($path: String!) {
 }
 </page-query>
 
-<script>import VueScrollProgress from 'vue-scroll-progress'
+<script>
+//mainjs import VueScrollProgress from 'vue-scroll-progress'
 export default {
   metaInfo() {
     return {
@@ -49,7 +50,7 @@ export default {
 // add codepen here https://static.codepen.io/assets/embed/ei.js
 </script>
 
-<style>
+<style scoped>
 /* VueScrollProgress */
 #progress-container-el {
   /* background */
