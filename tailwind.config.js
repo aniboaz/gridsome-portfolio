@@ -86,7 +86,7 @@ purple:'#4826B1',
     // Some useful comment
   },
   plugins: [
-    require('@tailwindcss/typography'),
+    require('@tailwindcss/typography')
     // Some useful comment
   ]
 }
