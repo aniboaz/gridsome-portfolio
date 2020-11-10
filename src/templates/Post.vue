@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout><VueScrollProgress></VueScrollProgress>
     <div class="container-inner mx-auto my-16">
       <h1 class="text-4xl font-bold leading-tight">{{ $page.post.title }}</h1>
       <div class="text-xl text-gray-600 mb-4">{{ $page.post.date }}</div>
@@ -42,7 +42,9 @@ export default {
     }
   }
 }
+import VueScrollProgress from 'vue-scroll-progress'
 
+Vue.use(VueScrollProgress)
 // add codepen here https://static.codepen.io/assets/embed/ei.js
 </script>
 
